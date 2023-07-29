@@ -1,0 +1,505 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gilroy';
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+#main{
+    width: 100%;
+    height:100%;
+    background-color: #FFFFFF;
+}
+#nav{
+    width:100%;
+    height: 18%;
+    /* background-color: green; */
+    border-bottom: 1px solid silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lnav{
+    margin: 2vmax;
+}
+#rnav button{
+    margin-right: 1vmax;
+    width: 11vw;
+    height: 7vh;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #5082EF;
+    border: none;
+    outline: none;
+    font-weight: 900;
+}
+#rnav a{
+    margin-right: 4vmax;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+a:hover{
+    color: #42A2F4;
+}
+.page{
+    width: 100%;
+    height: 100%;
+}
+#one{
+    /* background-color: black; */
+    display: flex;
+    text-align: left;
+}
+#lone{
+    width: 60%;
+    height: 100%;
+    /* background-color: #42A2F4; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vmax;
+    justify-content: center;
+}
+#rone{
+    width: 40%;
+    height: 100%;
+    /* background-color: #8ad400; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rone img{
+    width: 100%;
+    height: 75%;
+}
+#lone h1{
+    font-size: 4vmax;
+    margin-right: 5vmax;
+}
+#lone p{
+    color: black;
+    font-weight: 550;
+    line-height: 3vmax;
+}
+#buttonz button{
+    width:11vw;
+    height: 7vh;
+    border: 1px solid silver;
+    outline: none;
+    background-color: #5082EF;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 900;
+    margin-right: 10vmax;
+}
+#two{
+    border-top: 1px solid silver;
+    background-image: url("https://technext.github.io/chain/assets/images/footer-bg.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#card1 a{
+    text-decoration: none;
+}
+#two span{
+    color: #ffffff;
+}
+#two #data p{
+    color: black;
+    text-align: center;
+    line-height: 2vmax;
+    font-weight: 800;
+}
+#two h1{
+    margin-bottom: 2vmax;
+}
+#three{
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #42A2F4;
+    flex-direction: column;
+}
+#cards{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmax;
+}
+#card1{
+    width: 20vw;
+    height: 55vh;
+    /* background-color: #5082EF; */
+    background-color: #fff;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3vmax;
+    text-align: left;
+   
+}
+#card1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+#card1 h1 {
+    text-align: center;
+}
+#card1 p {
+  line-height: 20px;
+  /* color: silver; */
+  font-size: 1.2vmax;
+}
+#card1 a{
+    color:#157dbe;
+}
+#cards :hover{
+    background-color: #3EB0F6;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+} 
+#threehead{
+    margin-top: 2vmax;
+    font-size: 5vmax;
+}
+#four{
+    background-color: #4CC2F8;
+    color: #fff;
+}
+#fup{
+    width: 100%;
+    height: 45%;
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+     flex-direction: column; 
+     gap: 3vmax;
+}
+#fup input{
+    width: 25vw;
+    height: 7vh;
+    padding: 1vmax;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    background-color: #4CC2F8;
+    color: #fff;
+}
+#fup input::placeholder {
+    color: #fff; /* Replace with your desired color */
+  }
+#data2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmax;
+}
+#fup button{
+    width: 18vw;
+    height: 7vh;
+    padding: 1vmax;
+    color:#fff;
+    font-weight: 700;
+    outline:none;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fdown{
+    width: 100%;
+    height: 55%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vmax;
+}
+#s1{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+    padding: 1vmax;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vmax;
+    text-align: center;
+    align-items: center;
+}
+#s1 p {
+    line-height: 3vmax;
+}
+#s2 img{
+    width: 10vw;
+    height: 10vh;
+    margin-left: 4vmax;
+}
+#s2{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+    padding: 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vmax;
+    text-align: center;
+
+}
+#s2 p{
+    line-height: 3vmax;
+
+}
+#fup #data2 button:hover{
+    background-color: #fff;
+    color: #4CC2F8;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s all;
+}
+#preloader{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+.loader{
+    height: 70px;
+    width: 70px;
+    border: 8px solid #e3e3e3;
+    border-radius:50%;
+    border-right-color: #157dbe;
+    animation: spin 1s ease infinite;
+}
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+
+    }
+    
+    
+}
+@media(max-width:500px){
+
+    #lnav img{
+        width: 12vw;
+        height: 5vh;
+    }
+
+#rnav  a{
+    font-size: 1.9vmax;
+
+}
+#rnav button{
+    font-size: 1vmax;
+    width: 12vw;
+    height: 5vh;
+    padding: 1.2vmax;
+    text-align: center;
+}
+
+#one{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vmax;
+}
+#lone h1{
+    font-size: 10vmax;
+    margin-top:1vmax;
+   
+ text-align: center;
+}
+#lone p{
+    font-size: 2.5vmax;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+#buttonz button{
+    width:17vw;
+    height: 7vh;
+    border: 1px solid silver;
+    outline: none;
+    background-color: #5082EF;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 900;
+    margin-right: 10vmax;
+    font-size: 2vmax;
+    padding: 1vmax;
+    /* display: flex; */
+}
+
+#rone img{
+    width: 90vw;
+    height: 30vh;
+    /* background-color: red; */
+    margin-bottom: 4vmax;
+}
+#two span{
+    color: #157dbe;
+}
+#two{
+    padding: 1vmax;
+}
+#two h1{
+    margin-bottom: 2vmax;
+    font-size: 5vw;
+    text-align: center;
+}
+#two #data p{
+    font-size: 3vmax;
+    color: black;
+    text-align: center;
+    line-height: 4vmax;
+    font-weight: 800;
+}
+#three{
+    height: fit-content;
+}
+#cards{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vmax;
+    padding: 2vmax;
+}
+#card1{
+    width: 70vw;
+    height: 40vh;
+    /* background-color: #5082EF; */
+    background-color: #fff;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 3vmax;
+    text-align: left;
+   
+}
+#card1 p {
+    line-height: 20px;
+    /* color: silver; */
+    font-size: 2.2vmax;
+    text-align: center;
+  }
+  #four{
+    height: fit-content;
+  }
+  #data2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vmax;
+  }
+  #fup input{
+    width: 65vw;
+    height: 7vh;
+    padding: 1vmax;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    background-color: #4CC2F8;
+    color: #fff;
+}
+#fup button{
+    width: 65vw;
+    height: 7vh;
+    padding: 1vmax;
+    color:#fff;
+    font-weight: 700;
+    outline:none;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fdown{
+    width: 100%;
+    height: 55%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vmax;
+}
+#s1 h3{
+    font-size: 3vmax;
+    text-align: center;
+    /* background-color: rebeccapurple; */
+    /* width: 30vmax; */
+    margin-top: 2vmax;
+}
+#s1 p {
+    line-height: 7vmax;
+    text-align: center;
+    width: 30vw;
+    font-size: 3vmax;
+    /* background-color: rebeccapurple; */
+    padding: 1vmax;
+    /* margin-right: 2vmax; */
+}
+#s2 p{
+    line-height: 6vmax;
+    font-size: 2vmax;
+
+}
+#s2 img{
+    width: 13vw;
+    height: 6vh;
+    /* background-color: pink; */
+    padding: 1vmax;
+
+}
+#s2 h3{
+    text-align: center;
+    font-size: 3vmax;
+    width: 35vw;
+    /* background-color: black; */
+}
+#s2 p {
+    /* background-color: green; */
+    width: 50vw;
+    height: fit-content;
+    text-align: center;
+
+}
+#card1 a{
+    text-decoration: none;
+}
+}
