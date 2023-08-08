@@ -309,7 +309,7 @@ a:hover{
     }
 
 #rnav  a{
-    font-size: 1.9vmax;
+    font-size: 1.6vmax;
 
 }
 #rnav button{
@@ -339,6 +339,11 @@ a:hover{
     line-height: 20px;
     text-align: center;
     font-weight: 500;
+}
+#buttonz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #buttonz button{
     width:17vw;
